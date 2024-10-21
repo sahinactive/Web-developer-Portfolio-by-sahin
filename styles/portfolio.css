@@ -1,0 +1,12 @@
+/* nav related styles*/
+*{
+  box-sizing: border-box ;
+
+
+}
+body{
+   font-family: "Open Sans", sans-serif;
+}
+nav{
+  display: flex;
+}
