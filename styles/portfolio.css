@@ -1,10 +1,16 @@
 /* nav related styles*/
 * {
+  margin: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  padding-top: 15px;
+}
+
 nav {
+  margin: 0 200px;
   display: flex;
   justify-content: space-between;
 }
@@ -51,5 +57,22 @@ nav a {
 
 /* Header related styles  */
 .header {
-  background: #d7acf6;
+  background: #f3f0f5;
+}
+
+/* Hero area  */
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content {
+  flex-basis: 40%;
+}
+
+.banner-image {
+  flex-basis: 30%;
+  width: 500px;
 }
