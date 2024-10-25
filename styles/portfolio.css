@@ -36,6 +36,7 @@ nav li {
   margin-right: 20px;
   font-size: 20px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 nav a {
@@ -104,7 +105,6 @@ nav a {
 }
 
 main {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,8 +112,7 @@ main {
 }
 
 main>div:first-child {
-  margin: 50px auto;
-  width: 1200px;
+  margin: 50px auto 20px auto;
   max-width: 1200px;
   padding: 40px 30px;
   border-radius: 15px;
@@ -122,12 +121,12 @@ main>div:first-child {
 }
 
 main>div {
-  max-width: 700px;
-  margin: 20px auto;
+  width: 1200px;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
+
 
 .about {
   margin: auto;
@@ -167,7 +166,7 @@ main>div {
 }
 
 .service-section {
-  max-width: 1100px;
+  max-width: 1000px;
   padding: 20px;
   display: flex;
   flex-flow: row wrap;
