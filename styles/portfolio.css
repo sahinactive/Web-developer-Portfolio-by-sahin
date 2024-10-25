@@ -89,6 +89,7 @@ nav a {
 
 .banner-image>img {
   width: 100%;
+  margin-bottom: -5px;
 
 }
 
@@ -105,14 +106,19 @@ nav a {
 main {
   max-width: 1200px;
   margin: 50px auto;
-  background-color: #FFF8F3;
-  padding: 20px 30px;
+  padding: 40px 30px;
   border-radius: 15px;
-
+  background-color: #FFF8F3;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about {
-  margin: 0 auto;
+  margin: auto;
+  top: 50%;
   max-width: 800px;
   text-align: center;
   display: flex;
@@ -133,4 +139,5 @@ main {
   display: flex;
   align-self: center;
   column-gap: 30px;
+  padding-bottom: 10px;
 }
