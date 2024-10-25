@@ -101,3 +101,36 @@ nav a {
   font-weight: 700;
   line-height: 70px;
 }
+
+main {
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: #FFF8F3;
+  padding: 20px 30px;
+  border-radius: 15px;
+
+}
+
+.about {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.about-content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-self: center;
+  row-gap: 30px;
+}
+
+.my-info {
+  display: flex;
+  align-self: center;
+  column-gap: 30px;
+}
