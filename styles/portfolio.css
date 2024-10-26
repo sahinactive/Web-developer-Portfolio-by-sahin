@@ -191,3 +191,77 @@ main>div {
   width: 20%;
   height: auto;
 }
+
+.resume-summary {
+  margin-top: 20px;
+  max-width: 1000px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+
+}
+
+.summary-columns {
+  display: flex;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.my-education,
+.my-experience {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 8px;
+  text-align: left;
+}
+
+.summary-columns-title {}
+
+.summary-column {
+  padding: 10px 60px 20px 0px;
+  border-bottom: 1px solid #0000001b;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 10px;
+}
+
+.summary-column:last-child {
+  border: none;
+
+}
+
+.summary-column-title {
+  font-size: 14px;
+}
+
+.summary-column-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000be;
+}
+
+.summary-column-description {
+  font-size: 13px;
+  font-weight: 400;
+  color: #00000094;
+}
+
+.contact-sections {
+  max-width: 1000px;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+  column-gap: 30px;
+}
+
+.contact-section-item:first-child {
+  flex-basis: 60%;
+}
+
+.contact-section-item:last-child {
+  flex-basis: 35%;
+}
