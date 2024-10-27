@@ -57,17 +57,18 @@ nav a {
 
 /* Header related styles  */
 .header {
+
   background: #f3f0f5;
-  background-image: url(../images/header_bg.png);
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
   background-position: contain;
   padding-top: 10px;
 }
 
 /* Hero area  under header*/
 .banner {
-  padding: 30px 30px 0px 150px;
+  padding: 30px 10px 0px 130px;
   display: flex;
   justify-items: space-between;
   align-items: center;
@@ -219,7 +220,9 @@ main>div {
   text-align: left;
 }
 
-.summary-columns-title {}
+.summary-columns-title {
+  font-size: 18px;
+}
 
 .summary-column {
   padding: 10px 60px 20px 0px;
@@ -294,7 +297,6 @@ main>div {
   text-align: left;
   display: flex;
   flex-flow: column nowrap;
-
   row-gap: 10px;
 }
 
