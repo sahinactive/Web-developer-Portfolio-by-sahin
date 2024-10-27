@@ -55,6 +55,10 @@ nav a {
   cursor: pointer;
 }
 
+i {
+  margin-right: 6px;
+}
+
 /* Header related styles  */
 .header {
 
