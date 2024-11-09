@@ -1,4 +1,6 @@
 /* nav related styles*/
+
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -322,4 +324,93 @@ textarea {
   padding: 12px 25px;
   cursor: pointer;
   width: 30%;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width:576px) {
+  .what-i-do {
+    padding: 0px 10px;
+    max-width: 400px;
+  }
+
+  .service-section,
+  .summary-columns,
+  .contact-section>.inner-section {
+    flex-direction: column;
+  }
+
+  .contact-section>.inner-section {
+    row-gap: 20px;
+  }
+
+  .contact-section-item:first-child {
+    row-gap: 15px;
+    flex-basis: 100%;
+  }
+
+  .contact-section-description {
+    width: 90%;
+  }
+
+  main>div:first-child {
+    margin: 30px auto 20px auto;
+    max-width: 400px;
+    padding: 20px 10px;
+  }
+
+  .about {
+    top: 50%;
+    max-width: 400px;
+    border: none;
+  }
+
+  .my-info {
+    gap: 20px;
+
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .email h5 {
+    margin-left: 10px;
+  }
+
+  header.header {
+    background: none;
+  }
+
+  nav {
+    flex-direction: column;
+    padding: 10px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  .banner {
+    flex-direction: column;
+    padding: 20px 10px;
+    row-gap: 20px;
+  }
+
+  .banner-btns .btn-primary {
+    margin-bottom: 10px;
+  }
+
+  .banner-image {
+    width: 100%;
+  }
+
+  .banner-content h3 {
+    font-size: 25px;
+  }
+
+  .banner-content h1 {
+    font-size: 45px;
+  }
 }
