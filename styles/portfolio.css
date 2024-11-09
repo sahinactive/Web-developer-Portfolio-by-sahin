@@ -355,6 +355,10 @@ textarea {
     width: 90%;
   }
 
+  main>div {
+    width: 100%;
+  }
+
   main>div:first-child {
     margin: 30px auto 20px auto;
     max-width: 400px;
@@ -368,11 +372,11 @@ textarea {
   }
 
   .my-info {
-    gap: 20px;
 
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    gap: 20px;
   }
 
   .email h5 {
@@ -394,8 +398,15 @@ textarea {
 
   .banner {
     flex-direction: column;
-    padding: 20px 10px;
+    padding: 40px 10px;
     row-gap: 20px;
+  }
+
+  .btn-primary {
+    padding: 15px 25px;
+    font-weight: 600;
+    font-size: 18px;
+
   }
 
   .banner-btns .btn-primary {
