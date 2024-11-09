@@ -402,7 +402,8 @@ textarea {
     row-gap: 20px;
   }
 
-  .btn-primary {
+  ul>li .btn-primary {
+    width: 140px;
     padding: 15px 25px;
     font-weight: 600;
     font-size: 18px;
@@ -423,5 +424,47 @@ textarea {
 
   .banner-content h1 {
     font-size: 45px;
+  }
+}
+
+@media screen and(min-width:576px) and (max-width:992px) {
+  .what-i-do {
+    padding: 0px 10px;
+    max-width: 400px;
+  }
+
+  .service-section,
+  .summary-columns,
+  .contact-section>.inner-section {
+    flex-direction: column;
+  }
+
+  .contact-section>.inner-section {
+    row-gap: 20px;
+  }
+
+  .contact-section-item:first-child {
+    row-gap: 15px;
+    flex-basis: 100%;
+  }
+
+  .contact-section-description {
+    width: 90%;
+  }
+
+  main>div {
+    width: 100%;
+  }
+
+  main>div:first-child {
+    margin: 30px auto 20px auto;
+    max-width: 400px;
+    padding: 20px 10px;
+  }
+
+  .about {
+    top: 50%;
+    max-width: 400px;
+    border: none;
   }
 }
